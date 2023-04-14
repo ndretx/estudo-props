@@ -1,12 +1,14 @@
 import { Component } from "react";
-import ButtonComponent from "./components/button-components";
+import ButtonComponent from "./components/button-component";
 
 interface Props {
     mensagem: string;
+  
 }
 
 
 export default class HomeView extends Component <Props> {
+  
     render(){
         return(
             <div style={{backgroundColor: "#FFF000"}}>

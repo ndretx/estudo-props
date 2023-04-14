@@ -4,7 +4,10 @@ import HomeController from "./home/controller/page-controller";
 const mensagem = "Exibindo aqui a mensagem"
 
 
+
+
 function App() {
+
  
   return (
    <div>
@@ -14,3 +17,4 @@ function App() {
 }
 
 export default App;
+
